@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: static
+    name: png-to-pdf-guide
+    buildCommand: echo "Static HTML site - no build required"
+    staticPublishPath: .
